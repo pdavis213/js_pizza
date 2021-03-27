@@ -28,10 +28,10 @@ var pizza3 = {
 
 function pizzaOven(crustType, sauceType, cheeses, toppings){
     var pizza = {};
-        pizza.crustType = crustType;
-        pizza.sauceType = sauceType;
-        pizza.cheeses = cheeses;
-        pizza.toppings= toppings;
+        pizza.crustType =  "The type of crust is " +  crustType;
+        pizza.sauceType =  "The type of sauce is " + sauceType;
+        pizza.cheeses =    "The type of cheese(s) are " + cheeses;
+        pizza.toppings=    "The toppings are " + toppings; 
         console.log (pizza);
         return pizza;
     }
